@@ -1,0 +1,27 @@
+Partlist
+
+Exported from generic_maxi_1.sch at 05.11.2012 21:27:49
+
+EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value            Device           Package      Library       Sheet
+
+C1       22p              C-EU025-024X044  C025-024X044 rcl           1
+C2       22p              C-EU025-024X044  C025-024X044 rcl           1
+C3       10µ              CPOL-EUE1.8-4    E1,8-4       rcl           1
+C4       220n             C-EU025-030X050  C025-030X050 rcl           1
+IC1      MEGA48/88/168-PU MEGA48/88/168-PU DIL28-3      avr-5-4.16    1
+IC2      RFM12            RFM12            RFM          hopeRF        1
+JP1      AVR-ISP-6        AVR-ISP-6        AVR-ISP-6    avr-5-4.16    1
+JP2      ANT              PINHD-1X1        1X01         pinhead       1
+LED1     2mA              LED3MM           LED3MM       led           1
+Q1       4MHz             CRYSTALHC49S     HC49/S       crystal       1
+R1       750R             R-EU_0207/7      0207/7       rcl           1
+R2       150k             R-EU_0207/7      0207/7       rcl           1
+R3       330k             R-EU_0207/7      0207/7       rcl           1
+R4       1M               R-EU_0207/7      0207/7       rcl           1
+S1       RES              10-XX            B3F-10XX     switch-omron  1
+SL1      FTDI Board       M06              06P          con-amp-quick 1
+SL2      Expansion        M14              14P          con-amp-quick 1
