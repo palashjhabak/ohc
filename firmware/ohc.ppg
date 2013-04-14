@@ -1,0 +1,1 @@
+<Workspace name="ohc"><Project path="ohc_basestation\ohc_basestation.pnproj"></Project><Project path="ohc_tempsensor\ohc_tempsensor.pnproj"></Project><Project path="ohc_powerswitch\ohc_powerswitch.pnproj"></Project><Project path="ohc_dimmer\ohc_dimmer.pnproj"></Project><Project path="rfm12\rfm12.pnproj"></Project><Project path="src_common\src_common.pnproj"></Project></Workspace>
