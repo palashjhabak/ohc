@@ -48,12 +48,13 @@ License Information Logo
 The Open Home Control logo ("House"), also used in the hardware layouts,
 is copyright (c) 2013 by Uwe Freese.
 
-The logo can be used on boards or hardware devices only for private
-purposes for devices included in the project repository and which are
-therefore available to the public. For derived or modified versions,
-devices not existing in the repository, completely different products and
-for any commercial boards or devices, the logo must not be used without
-explicit permission from Uwe Freese.
+The logo may be used on hardware (boards or devices) or description of
+those only for private purposes for devices included in the project
+repository and which are therefore available to the public. For derived
+or modified versions, devices not existing in the repository, completely
+different products or for commercial boards or devices or to describe
+them, the logo must not be used without explicit permission from Uwe
+Freese.
 
 For more information on using the logo outside the hardware layout,
 please read the legal info on the website
