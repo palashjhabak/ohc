@@ -16830,8 +16830,8 @@ high speed (Philips)</description>
 <text x="63.5" y="27.94" size="1.778" layer="97" rot="R90">1=GND, 2=VCC</text>
 <frame x1="-60.96" y1="-58.42" x2="172.72" y2="93.98" columns="8" rows="5" layer="97"/>
 <text x="66.04" y="-40.64" size="3.81" layer="97">Open Home Control Generic Maxi Speed 1</text>
-<text x="121.92" y="-45.72" size="2.1844" layer="97">Date: 01.05.2013</text>
-<text x="66.04" y="-45.72" size="2.1844" layer="97">Rev x.x</text>
+<text x="121.92" y="-45.72" size="2.1844" layer="97">Date: 03.05.2013</text>
+<text x="66.04" y="-45.72" size="2.1844" layer="97">Rev 1.0</text>
 <text x="66.04" y="-50.8" size="2.1844" layer="97">Copyright (c) Uwe Freese, www.open-home-control.com</text>
 </plain>
 <instances>

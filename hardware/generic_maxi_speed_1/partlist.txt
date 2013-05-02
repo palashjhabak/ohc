@@ -1,0 +1,41 @@
+Partlist
+
+Exported from generic_maxi_speed_1.brd at 03.05.2013 00:08:19
+
+EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value            Package      Library       Position (inch)       Orientation
+
+C1       22p              C025-024X044 rcl           (0.9 1.7)             R270
+C2       22p              C025-024X044 rcl           (0.8 1.7)             R270
+C4       220n             C025-030X050 rcl           (1.175 0.875)         R180
+C5       10µ              E1,8-4       rcl           (1.15 0.1)            R90
+C6       10µ              E1,8-4       rcl           (0.6625 0.275)        R90
+D1       1N4148DO35-7     DO35-7       diode         (0.425 0.1)           R180
+D2       3.3V             ZDIO-5       diode         (0.825 0.2125)        R270
+D3       3.3V             ZDIO-5       diode         (1.025 0.2125)        R270
+D4       3.3V             ZDIO-5       diode         (0.925 0.2125)        R270
+IC1      MEGA48/88/168-PU DIL28-3      avr-5-4.16    (1 1.15)              R180
+IC2      RFM12            RFM          hopeRF        (1.9 0.8)             MR270
+IC3      LP2950Z          TO92         linear        (0.4375 0.25)         R0
+JP1      AVR-ISP-6        AVR-ISP-6    avr-5-4.16    (0.45 0.6)            R0
+JP2      ANT              1X01         pinhead       (1.875 0.075)         R0
+JP6      ANT              1X01         pinhead       (1.25 1.45)           R0
+JP7      ANT              1X01         pinhead       (0.325 1.55)          R0
+JP8      ANT              1X01         pinhead       (0.45 0.9)            R0
+JP9      ANT              1X01         pinhead       (0.325 1.65)          R0
+JP10     ANT              1X01         pinhead       (0.35 0.9)            R0
+JP12     FEATURE          1X05         pinhead       (1.8625 1.325)        R90
+LED1     2mA              LED3MM       led           (0.6 1.7)             R90
+Q1       20MHz            HC49/S       crystal       (0.8 1.5)             R0
+R1       1K5              0207/7       rcl           (0.45 1.55)           R90
+R2       150k             0207/7       rcl           (1.225 1.6375)        R0
+R3       330k             0207/7       rcl           (1.225 1.5375)        R180
+R4       1k               0207/7       rcl           (0.825 0.5375)        R270
+R5       1k               0207/7       rcl           (1.025 0.5375)        R270
+R6       1k               0207/7       rcl           (0.925 0.5375)        R270
+R10      1M               0207/7       rcl           (1.125 0.5375)        R90
+S1       RES              B3F-10XX     switch-omron  (1.55 1.8)            R0
+SL1      FTDI Board       06P          con-amp-quick (0.15 1.15)           R90
