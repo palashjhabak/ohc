@@ -18,7 +18,7 @@
 
 # CPU config
 MCU		       = atmega328
-F_CPU	       = 12000000
+F_CPU	       = 20000000
 UART_BAUD_RATE = 19200
 UART_RX        = 1
 
