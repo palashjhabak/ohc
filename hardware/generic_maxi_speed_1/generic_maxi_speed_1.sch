@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16786,7 +16786,7 @@ high speed (Philips)</description>
 <parts>
 <part name="IC2" library="hopeRF" deviceset="RFM12" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="2mA"/>
-<part name="IC1" library="avr-5-4.16" deviceset="MEGA48/88/168-PU" device=""/>
+<part name="IC1" library="avr-5-4.16" deviceset="MEGA48/88/168-PU" device="" value="MEGA168/328"/>
 <part name="JP1" library="avr-5-4.16" deviceset="AVR-ISP-6" device=""/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49S" value="20MHz"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -16814,11 +16814,11 @@ high speed (Philips)</description>
 <part name="R6" library="rcl" deviceset="R-EU_" device="0207/7" value="1k"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="0207/7" value="1k"/>
 <part name="C6" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10µ"/>
-<part name="JP6" library="pinhead" deviceset="PINHD-1X1" device="" value="ANT"/>
-<part name="JP7" library="pinhead" deviceset="PINHD-1X1" device="" value="ANT"/>
-<part name="JP8" library="pinhead" deviceset="PINHD-1X1" device="" value="ANT"/>
-<part name="JP9" library="pinhead" deviceset="PINHD-1X1" device="" value="ANT"/>
-<part name="JP10" library="pinhead" deviceset="PINHD-1X1" device="" value="ANT"/>
+<part name="JP6" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP7" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP8" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP9" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP10" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP12" library="pinhead" deviceset="PINHD-1X5" device="" value="FEATURE"/>
 <part name="D2" library="diode" deviceset="ZENER-DIODE" device="ZD-5" value="3.3V"/>
 <part name="D3" library="diode" deviceset="ZENER-DIODE" device="ZD-5" value="3.3V"/>
@@ -16827,10 +16827,9 @@ high speed (Philips)</description>
 <sheets>
 <sheet>
 <plain>
-<text x="63.5" y="27.94" size="1.778" layer="97" rot="R90">1=GND, 2=VCC</text>
 <frame x1="-60.96" y1="-58.42" x2="172.72" y2="93.98" columns="8" rows="5" layer="97"/>
 <text x="66.04" y="-40.64" size="3.81" layer="97">Open Home Control Generic Maxi Speed 1</text>
-<text x="121.92" y="-45.72" size="2.1844" layer="97">Date: 03.05.2013</text>
+<text x="121.92" y="-45.72" size="2.1844" layer="97">Date: 08.05.2013</text>
 <text x="66.04" y="-45.72" size="2.1844" layer="97">Rev 1.0</text>
 <text x="66.04" y="-50.8" size="2.1844" layer="97">Copyright (c) Uwe Freese, www.open-home-control.com</text>
 </plain>
@@ -17320,6 +17319,11 @@ high speed (Philips)</description>
 <approved hash="104,1,68.58,53.34,IC2,VDD,+3V3,,,"/>
 <approved hash="104,1,-25.4,17.78,IC1,VCC,+5V,,,"/>
 <approved hash="104,1,-25.4,-5.08,IC1,AGND,GND,,,"/>
+<approved hash="115,1,56.1171,39.5012,JP6,,,,,"/>
+<approved hash="115,1,56.1171,36.9612,JP7,,,,,"/>
+<approved hash="115,1,56.1171,34.4212,JP8,,,,,"/>
+<approved hash="115,1,56.1171,31.8812,JP9,,,,,"/>
+<approved hash="115,1,56.1171,29.3412,JP10,,,,,"/>
 </errors>
 </schematic>
 </drawing>
