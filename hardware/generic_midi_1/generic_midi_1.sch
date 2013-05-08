@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12096,7 +12096,7 @@ W = angled&lt;p&gt;
 <parts>
 <part name="IC2" library="hopeRF" deviceset="RFM12" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="2mA"/>
-<part name="IC1" library="avr-5-4.16" deviceset="MEGA48/88/168-PU" device=""/>
+<part name="IC1" library="avr-5-4.16" deviceset="MEGA48/88/168-PU" device="" value="MEGA168/328"/>
 <part name="JP1" library="avr-5-4.16" deviceset="AVR-ISP-6" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -12127,7 +12127,7 @@ W = angled&lt;p&gt;
 <plain>
 <frame x1="-60.96" y1="-63.5" x2="154.94" y2="88.9" columns="8" rows="5" layer="97"/>
 <text x="66.04" y="-43.18" size="3.81" layer="97">Open Home Control Generic Midi 1</text>
-<text x="121.92" y="-48.26" size="2.1844" layer="97">Date: 22.01.2013</text>
+<text x="121.92" y="-48.26" size="2.1844" layer="97">Date: 08.05.2013</text>
 <text x="66.04" y="-48.26" size="2.1844" layer="97">Rev 1.0</text>
 <text x="66.04" y="-53.34" size="2.1844" layer="97">Copyright (c) Uwe Freese, www.open-home-control.com</text>
 </plain>
