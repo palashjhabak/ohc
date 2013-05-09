@@ -12091,6 +12091,7 @@ W = angled&lt;p&gt;
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.3048"/>
 </class>
 </classes>
 <parts>
@@ -12115,21 +12116,21 @@ W = angled&lt;p&gt;
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="JP4" library="jumper" deviceset="JP1E" device="" value="PWR"/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X1" device="" value="ANT"/>
-<part name="JP7" library="pinhead" deviceset="PINHD-1X1" device="" value="PD5"/>
-<part name="JP6" library="pinhead" deviceset="PINHD-1X1" device="" value="PD6"/>
-<part name="JP8" library="pinhead" deviceset="PINHD-1X1" device="" value="PB1"/>
-<part name="JP9" library="pinhead" deviceset="PINHD-1X1" device="" value="PB2"/>
+<part name="JP9" library="pinhead" deviceset="PINHD-1X1" device="" value="PD5"/>
+<part name="JP10" library="pinhead" deviceset="PINHD-1X1" device="" value="PD6"/>
+<part name="JP6" library="pinhead" deviceset="PINHD-1X1" device="" value="PB1"/>
+<part name="JP7" library="pinhead" deviceset="PINHD-1X1" device="" value="PB2"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="0207/7" value="10k"/>
-<part name="JP10" library="pinhead" deviceset="PINHD-1X1" device="" value="PD5"/>
+<part name="JP8" library="pinhead" deviceset="PINHD-1X1" device="" value="PD5"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<frame x1="-60.96" y1="-63.5" x2="154.94" y2="88.9" columns="8" rows="5" layer="97"/>
-<text x="66.04" y="-43.18" size="3.81" layer="97">Open Home Control Generic Midi 1</text>
-<text x="121.92" y="-48.26" size="2.1844" layer="97">Date: 08.05.2013</text>
-<text x="66.04" y="-48.26" size="2.1844" layer="97">Rev 1.0</text>
-<text x="66.04" y="-53.34" size="2.1844" layer="97">Copyright (c) Uwe Freese, www.open-home-control.com</text>
+<frame x1="-60.96" y1="-53.34" x2="132.08" y2="88.9" columns="8" rows="5" layer="97"/>
+<text x="40.64" y="-33.02" size="3.81" layer="97">Open Home Control Generic Midi 1</text>
+<text x="96.52" y="-38.1" size="2.1844" layer="97">Date: 09.05.2013</text>
+<text x="40.64" y="-38.1" size="2.1844" layer="97">Rev 1.0</text>
+<text x="40.64" y="-43.18" size="2.1844" layer="97">Copyright (c) Uwe Freese, www.open-home-control.com</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="93.98" y="50.8" rot="R90"/>
@@ -12153,12 +12154,12 @@ W = angled&lt;p&gt;
 <instance part="P+4" gate="VCC" x="50.8" y="22.86" rot="R180"/>
 <instance part="JP4" gate="A" x="-35.56" y="2.54" rot="MR90"/>
 <instance part="JP5" gate="G$1" x="88.9" y="76.2"/>
-<instance part="JP7" gate="G$1" x="48.26" y="15.24"/>
-<instance part="JP6" gate="G$1" x="48.26" y="7.62"/>
-<instance part="JP8" gate="G$1" x="48.26" y="-2.54"/>
-<instance part="JP9" gate="G$1" x="48.26" y="-17.78"/>
+<instance part="JP9" gate="G$1" x="55.88" y="15.24"/>
+<instance part="JP10" gate="G$1" x="48.26" y="7.62"/>
+<instance part="JP6" gate="G$1" x="48.26" y="-2.54"/>
+<instance part="JP7" gate="G$1" x="48.26" y="-17.78"/>
 <instance part="R6" gate="G$1" x="43.18" y="30.48" rot="R180"/>
-<instance part="JP10" gate="G$1" x="45.72" y="22.86"/>
+<instance part="JP8" gate="G$1" x="45.72" y="22.86"/>
 </instances>
 <busses>
 </busses>
@@ -12425,21 +12426,21 @@ W = angled&lt;p&gt;
 <pinref part="IC1" gate="1" pin="PD5(T1/OC0B/PCINT21)"/>
 <wire x1="35.56" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="10.16" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="15.24" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="PD6(AIN0/OC0A/PCINT22)"/>
-<pinref part="JP6" gate="G$1" pin="1"/>
+<pinref part="JP10" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="7.62" x2="45.72" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="PB1(OC1A/PCINT1)"/>
-<pinref part="JP8" gate="G$1" pin="1"/>
+<pinref part="JP6" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12448,7 +12449,7 @@ W = angled&lt;p&gt;
 <pinref part="IC1" gate="1" pin="PB2(SS/OC1B/PCINT2)"/>
 <wire x1="35.56" y1="-5.08" x2="38.1" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-5.08" x2="38.1" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="JP9" gate="G$1" pin="1"/>
+<pinref part="JP7" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="-17.78" x2="45.72" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12457,7 +12458,7 @@ W = angled&lt;p&gt;
 <pinref part="IC1" gate="1" pin="PD1(TXD/PCINT17)"/>
 <wire x1="35.56" y1="20.32" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="20.32" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="JP10" gate="G$1" pin="1"/>
+<pinref part="JP8" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>

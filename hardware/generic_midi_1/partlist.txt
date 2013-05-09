@@ -1,28 +1,30 @@
 Partlist
 
-Exported from generic_midi_1.sch at 05.11.2012 21:33:40
+Exported from generic_midi_1.brd at 09.05.2013 13:23:25
 
-EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
 
 Assembly variant: 
 
-Part     Value            Device           Package   Library    Sheet
+Part     Value          Package   Library    Position (inch)       Orientation
 
-C3       10µ              CPOL-EUE1.8-4    E1,8-4    rcl        1
-IC1      MEGA48/88/168-PU MEGA48/88/168-PU DIL28-3   avr-5-4.16 1
-IC2      RFM12            RFM12            RFM       hopeRF     1
-JP1      AVR-ISP-6        AVR-ISP-6        AVR-ISP-6 avr-5-4.16 1
-JP2      SHT15            MA05-1           MA05-1    con-lstb   1
-JP3      PHOTO            JP1E             JP1       jumper     1
-JP4      PWR              JP1E             JP1       jumper     1
-JP5      ANT              PINHD-1X1        1X01      pinhead    1
-JP6      PD6              PINHD-1X1        1X01      pinhead    1
-JP7      PD5              PINHD-1X1        1X01      pinhead    1
-JP8      PB1              PINHD-1X1        1X01      pinhead    1
-JP9      PB2              PINHD-1X1        1X01      pinhead    1
-LED1     2mA              LED3MM           LED3MM    led        1
-R1       750R             R-EU_0207/7      0207/7    rcl        1
-R2       150k             R-EU_0207/7      0207/7    rcl        1
-R3       330k             R-EU_0207/7      0207/7    rcl        1
-R4       1M               R-EU_0207/7      0207/7    rcl        1
-R5       100k             R-EU_0207/7      0207/7    rcl        1
+C3       10µ            E1,8-4    rcl        (0.9 0.2)             R0
+IC1      MEGA168/328    DIL28-3   avr-5-4.16 (0.925 0.5)           R0
+IC2      RFM12          RFM       hopeRF     (0.975 1.6)           MR180
+JP1      AVR-ISP-6      AVR-ISP-6 avr-5-4.16 (0.5 1.525)           R180
+JP2      SHT15          MA05-1    con-lstb   (0.425 1.125)         R180
+JP3      PHOTO          JP1       jumper     (0.65 0.9)            R180
+JP4      PWR            JP1       jumper     (0.7 0.15)            R0
+JP5      ANT            1X01      pinhead    (1.7125 1.525)        R0
+JP6      PB1            1X01      pinhead    (1.55 0.7625)         R0
+JP7      PB2            1X01      pinhead    (1.4375 0.7625)       R0
+JP8      PD5            1X01      pinhead    (0.525 0.7625)        R0
+JP9      PD5            1X01      pinhead    (1.275 0.1625)        R0
+JP10     PD6            1X01      pinhead    (1.375 0.1625)        R0
+LED1     2mA            LED3MM    led        (1.1 0.15)            R270
+R1       560R           0207/7    rcl        (1.325 0.25)          R180
+R2       150k           0207/7    rcl        (0.425 0.1)           R180
+R3       330k           0207/7    rcl        (0.425 0.2)           R0
+R4       1M             0207/7    rcl        (1.6625 0.9)          R180
+R5       100k           0207/7    rcl        (0.375 0.925)         R180
+R6       10k            0207/7    rcl        (0.375 1.25)          R0
