@@ -278,51 +278,54 @@ int main ( void )
 	sei();
 	
 	// ENCODE TEST
-	/*RFM12_CLR
-	//RFM12_PUTF5("123212 %u %u Bat%u Tmp%u Hum%u", 1, 1, bat_percentage(1000), 2222, 3333);
-	RFM12_PUTF3("%u %u Bat%u", 1, 1, 100);
+	/*
+	uint8_t testlen = 64;
 	
-	eeprom_read_block (aes_key, (uint8_t *)AES_KEY_EEPROM_OFFSET, 32);
+	eeprom_read_block (aes_key, (uint8_t *)EEPROM_POS_AES_KEY, 32);
 	UART_PUTS("Using AES key ");
 	printbytearray((uint8_t *)aes_key, 32);
 			
 	UART_PUTS("Before encryption: ");
-	printbytearray(bufx, strlen(bufx));
-	UART_PUTS("==> ");
-	uart_putstr(bufx);
-	UART_PUTS("\r\n");
+	printbytearray(bufx, testlen);
   
-	unsigned long crc = crc32(bufx, strlen(bufx));
+	unsigned long crc = crc32(bufx, testlen);
 	UART_PUTF("CRC32 is %lx (added as last 4 bytes)\r\n", crc);
 	
-	addCRC(bufx, crc);
+	UART_PUTS("1\r\n");
+	crc = crc32(bufx, testlen - 4);
+	UART_PUTS("2\r\n");
+	setBuf32(testlen - 4, crc);
 	
 	UART_PUTS("Before encryption (CRC added): ");
-	printbytearray(bufx, strlen(bufx));
+	printbytearray(bufx, testlen);
 
-	uint8_t aes_byte_count = aes256_encrypt(bufx, strlen(bufx));
+	UART_PUTS("1\r\n");
+	uint8_t aes_byte_count = aes256_encrypt_cbc(bufx, testlen);
+	UART_PUTS("2\r\n");
   
 	UART_PUTS("After encryption: ");
 	printbytearray(bufx, aes_byte_count);
 	
 	UART_PUTF("String len = %u\r\n", aes_byte_count);
 	
-	aes256_decrypt(bufx, aes_byte_count);
+	UART_PUTS("1\r\n");
+	aes256_decrypt_cbc(bufx, aes_byte_count);
+	UART_PUTS("2\r\n");
   
 	UART_PUTS("After decryption: ");
-	printbytearray(bufx, strlen(bufx));
+	printbytearray(bufx, testlen);
 	
-	crc = strip_crc(bufx);
+	crc = getBuf32(testlen - 4);
 	UART_PUTF("CRC32 is %lx (last 4 bytes from decrypted message)\r\n", crc);
-	printbytearray(bufx, strlen(bufx));
+	printbytearray(bufx, testlen);
 	
 	UART_PUTS("After decryption (CRC removed): ");
-	printbytearray(bufx, strlen(bufx));
+	printbytearray(bufx, testlen);
 	
-	UART_PUTF("String len = %u\r\n", strlen(bufx));
+	UART_PUTF("String len = %u\r\n", testlen);
   
 	while(1);
-*/
+	*/
 
 	while (42)
 	{
